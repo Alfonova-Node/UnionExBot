@@ -1,0 +1,9 @@
+bot:
+  api-url: https://activity.unionex.com
+  refer-url: https://activity.unionex.com/
+
+auto-bind-wallet: true
+max-thread: 10
+random-sleep:
+  min: 1800
+  max: 3600
