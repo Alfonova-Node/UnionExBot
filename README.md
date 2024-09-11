@@ -1,6 +1,6 @@
-[![Static Badge](https://img.shields.io/badge/Telegram-Bot%20Link-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/Agent301Bot/app?startapp=onetime5024522783)
+[![Static Badge](https://img.shields.io/badge/Telegram-Bot%20Link-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/UnionEx_official_bot/UnionEx_Airdrop_Point?startapp=N52XDKbWI)
 
-![demo](https://raw.githubusercontent.com/ehhramaaa/agent301/main/assets/Sunny_20240910_190645.png)
+![demo](https://raw.githubusercontent.com/ehhramaaa/UnionExBot/main/assets/Sunny_20240912_051511.png)
 
 ## Recommendation before use
 
@@ -16,7 +16,7 @@
 |  Auto Daily Streak  |    ✅     |
 | Auto Connect Wallet |    ✅     |
 
-## [Settings](https://github.com/ehhramaaa/agent301/blob/main/config.yml)
+## [Settings](https://github.com/ehhramaaa/UnionExBot/blob/main/config.yml)
 
 |       Settings       |                  Description                  |
 | :------------------: | :-------------------------------------------: |
@@ -37,8 +37,8 @@ Before you begin, make sure you have the following installed:
 You can download the [**repository**](https://github.com/ehhramaaa/agent301.git) by cloning it to your system and installing the necessary dependencies:
 
 ```shell
-git clone https://github.com/ehhramaaa/agent301.git
-cd agent301
+https://github.com/ehhramaaa/UnionExBot.git
+cd UnionExBot
 go mod tidy
 ```
 
@@ -47,11 +47,12 @@ Then you can do build application by typing:
 Windows:
 
 ```shell
-go build -o agent301.exe
+go build -o UnionExBot.exe
 ```
 
 Linux:
 
 ```shell
-go build -o agent301
+go build -o UnionExBot
+chmod +x UnionExBot
 ```
