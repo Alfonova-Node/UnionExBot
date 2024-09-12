@@ -40,6 +40,8 @@ go mod tidy
 cp query.txt.example query.txt && cp wallet.txt.example wallet.txt
 rm -rf query.txt.example wallet.txt.example
 ```
+MASUKIN QUERY di `query.txt` dan wallet ton nya di `wallet.txt`
+FORMAT isi `wallet.txt` nya `username_tele:wallet` tanapa `@`
 
 ```shell
 go build -o UnionExBot
