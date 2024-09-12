@@ -1,14 +1,3 @@
-package main
-
-import (
-	"fmt"
-
-	"github.com/gookit/config/v2"
-	"github.com/gookit/config/v2/yaml"
-
-	"agent301/core"
-
-)
 
 #!/bin/bash
 merah="\e[31m"
@@ -28,15 +17,4 @@ echo " ██║  ██║███████╗██║     ╚████
 echo " ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝   ╚═══╝  ╚═╝  ╚═╝ "
 echo -e "$reset$bold$merah====================>>($hijau https://github.com/Alfonova-Node $merah)<<===================$reset\n"
 																	
-														
-
-	// add driver for support yaml content
-	config.AddDriver(yaml.Driver)
-
-	err := config.LoadFiles("config.yml")
-	if err != nil {
-		panic(err)
-	}
-
-	core.ProcessBot(config.Default())
-}
+													
