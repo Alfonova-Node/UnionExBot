@@ -31,7 +31,7 @@ Before you begin, make sure you have the following installed:
 
 
 ```shell
-https://github.com/ehhramaaa/UnionExBot.git
+git clone https://github.com/ehhramaaa/UnionExBot.git
 cd UnionExBot
 go mod tidy
 ```
