@@ -44,4 +44,5 @@ rm -rf query.txt.example wallet.txt.example
 ```shell
 go build -o UnionExBot
 chmod +x UnionExBot
+./UnionExBot
 ```
