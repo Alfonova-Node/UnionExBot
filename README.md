@@ -1,6 +1,3 @@
-[![Static Badge](https://img.shields.io/badge/Telegram-Bot%20Link-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/UnionEx_official_bot/UnionEx_Airdrop_Point?startapp=N52XDKbWI)
-
-![demo](https://raw.githubusercontent.com/ehhramaaa/UnionExBot/main/assets/Sunny_20240912_051511.png)
 
 ## Recommendation before use
 
@@ -32,9 +29,6 @@ Before you begin, make sure you have the following installed:
 
 - [Golang](https://go.dev/doc/install) **version > 1.22**
 
-## Installation
-
-You can download the [**repository**](https://github.com/ehhramaaa/agent301.git) by cloning it to your system and installing the necessary dependencies:
 
 ```shell
 https://github.com/ehhramaaa/UnionExBot.git
@@ -42,15 +36,10 @@ cd UnionExBot
 go mod tidy
 ```
 
-Then you can do build application by typing:
-
-Windows:
-
 ```shell
-go build -o UnionExBot.exe
+cp query.txt.example query.txt && cp wallet.txt.example wallet.txt
+rm -rf query.txt.example wallet.txt.example
 ```
-
-Linux:
 
 ```shell
 go build -o UnionExBot
